@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <!--Realiza un XML, y su correspondiente DTD, que permita almacenar
+    información sobre tarjetas de placa base de manera que cumplas los
+    siguientes requisitos:-->
+
+<!DOCTYPE placaBases [
+    <!--microprocesador, memoria,
+    modelo, fabricante.-->
+    <!ELEMENT placaBases (placaBase*)>
+    <!ELEMENT placaBase (microprocesador, memoria, modelo, fabricante)>
+    <!ELEMENT microprocesador (#PCDATA)>
+    <!ELEMENT memoria (#PCDATA)>
+    <!ELEMENT modelo (#PCDATA)>
+    <!ELEMENT fabricante (#PCDATA)> <!--Esta No supe bien cómo hacerla realmente, 
+        no está terminada...-->
+
+]>
+
+<placaBases>
+    <placaBase>
+        <microprocesador>i7 4770</microprocesador>
+        <memoria>16GB GDDR3</memoria>
+        <modelo></modelo>
+        <fabricante>Intel</fabricante>
+    </placaBase>
+
+    <placaBase>
+        <microprocesador>Ryzen 7600</microprocesador>
+        <memoria>32GB GDDR4</memoria>
+        <modelo></modelo>
+        <fabricante>Asus</fabricante>
+    </placaBase>
+</placaBases>
