@@ -1,0 +1,14 @@
+<!ELEMENT tienda (catalogo)>
+<!ELEMENT catalogo (tipos*)>
+<!ELEMENT tipos (CodigoIdentificador, nombre, descripcion, precio, puntuacion)>
+<!ELEMENT nombre (#PCDATA | subnombre)*>
+<!ELEMENT descipcion (opinion+)>
+<!ELEMENT opinion (Positiva | Negativa)>
+<!ELEMENT codigoIdentificador EMPTY>
+<!ELEMENT opinion (#PCDATA)>
+<!ELEMENT subnombre (#PCDATA)>
+<!ELEMENT Positiva EMPTY>
+<!ELEMENT Negativa EMPTY>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT puntuacion EMPTY>
+<!ATTLIST tipos categoria CDATA #REQUIRED>

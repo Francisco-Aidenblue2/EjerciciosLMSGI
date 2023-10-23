@@ -12,9 +12,9 @@
     <!ELEMENT microprocesador (#PCDATA)>
     <!ELEMENT memoria (#PCDATA)>
     <!ELEMENT modelo (#PCDATA)>
-    <!ELEMENT fabricante (#PCDATA)> <!--Esta No supe bien cómo hacerla realmente, 
-        no está terminada...-->
-
+    <!ELEMENT fabricante (Intel| Asus)>
+    <!ELEMENT Intel (#PCDATA)>
+    <!ELEMENT Asus (#PCDATA)> 
 ]>
 
 <placaBases>
@@ -22,13 +22,17 @@
         <microprocesador>i7 4770</microprocesador>
         <memoria>16GB GDDR3</memoria>
         <modelo></modelo>
-        <fabricante>Intel</fabricante>
+        <fabricante>
+            <Intel/>
+        </fabricante>
     </placaBase>
 
     <placaBase>
         <microprocesador>Ryzen 7600</microprocesador>
         <memoria>32GB GDDR4</memoria>
         <modelo></modelo>
-        <fabricante>Asus</fabricante>
+        <fabricante>
+            <Asus/>
+        </fabricante>
     </placaBase>
 </placaBases>

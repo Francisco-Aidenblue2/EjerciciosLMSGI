@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tienda SYSTEM "CatalogoDeProductosElectronicos.dtd">
+
+<tienda>
+    <catalogo>
+        <tipos categoria="grafica">
+            <codigoIdentificador/>
+            <nombre>RX 6650 XT
+                <subnombre>6650 XT</subnombre>
+            </nombre>
+            <descripcion>
+                <opinion>
+                    <Positiva/>
+                </opinion>
+            </descripcion>
+            <precio> 300€ </precio>
+            <puntuacion/>
+
+        </tipos>
+
+        <tipos categoria="CPU">
+            <codigoIdentificador/>
+            <nombre>Ryzen 7600 </nombre>
+            <descripcion> 
+                <opinion>
+                    <Negativa/>
+                </opinion>
+            </descripcion>
+            <precio>280€ </precio>
+            <puntuacion/>
+        </tipos>
+
+
+    </catalogo>
+</tienda>
