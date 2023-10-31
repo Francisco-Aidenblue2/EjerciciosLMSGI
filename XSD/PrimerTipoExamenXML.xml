@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<crepusculo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="PrimerTipoExamenXSD.xsd"> El terror compienza
+</crepusculo>
+
 <!--El tema a hacer es Crepúsculo, por tanto a hablar sobre serie o película.-->
