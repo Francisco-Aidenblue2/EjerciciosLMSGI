@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="tiendas">
+        
+    </xs:element>
+    <xs:element name="tienda" cif="12345678A" descuentosAplicables="25% 20% 15% 10%">
+        <xs:complexType>
+            <xs:attribute name="cif"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="nombre"></xs:element>
+    <xs:element name="regalo"></xs:element>
+    <xs:element name="url"></xs:element>
+    <xs:element name="marca"></xs:element>
+    <xs:element name="mattel"></xs:element>
+    <xs:element name="giochiPreziosi"></xs:element>
+    <xs:element name="bombazo"></xs:element>
+
+
+
+<!--<xs:element name="superheroe">
+    <xs:complexType mixed="true">
+      <xs:choice>
+        <xs:element name="nombre" type="xs:string"/>
+        <xs:element name="amigo" type="xs:string" minOccurs="2" maxOccurs="unbounded"/>
+      </xs:choice>
+      <xs:attribute name="edad" type="xs:string"/>
+      <xs:attribute name="color" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  -->
+</xs:schema>
